@@ -3,10 +3,75 @@
     "scheme": "acme",
     "userInterfaceStyle": "automatic",
     "orientation": "default",
+    "androidStatusBar": {
+      "backgroundColor": "#020617",
+      "barStyle": "light-content",
+      "translucent": false
+    },
+    "android": {
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.anonymous.Anoka"
+    },
     "web": {
       "output": "static"
     },
-    "name": "jarvis-frontend-app",
-    "slug": "jarvis-frontend-app"
+    "name": "Anoka App",
+    "slug": "Anoka",
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./src/assets/fonts/SoraExtraLight.ttf",
+            "./src/assets/fonts/SoraLight.ttf",
+            "./src/assets/fonts/SoraRegular.ttf",
+            "./src/assets/fonts/Sora-Medium.ttf",
+            "./src/assets/fonts/SoraSemiBold.ttf",
+            "./src/assets/fonts/SoraBold.ttf"
+          ],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Sora",
+                "fontDefinitions": [
+                  {
+                    "path": "./src/assets/fonts/SoraExtraLight.ttf",
+                    "weight": 200
+                  },
+                  {
+                    "path": "./src/assets/fonts/SoraLight.ttf",
+                    "weight": 300
+                  },
+                  {
+                    "path": "./src/assets/fonts/SoraRegular.ttf",
+                    "weight": 400
+                  },
+                  {
+                    "path": "./src/assets/fonts/Sora-Medium.ttf",
+                    "weight": 500
+                  },
+                  {
+                    "path": "./src/assets/fonts/SoraSemiBold.ttf",
+                    "weight": 600
+                  },
+                  {
+                    "path": "./src/assets/fonts/SoraBold.ttf",
+                    "weight": 700
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": [
+            "./src/assets/fonts/SoraExtraLight.ttf",
+            "./src/assets/fonts/SoraLight.ttf",
+            "./src/assets/fonts/SoraRegular.ttf",
+            "./src/assets/fonts/Sora-Medium.ttf",
+            "./src/assets/fonts/SoraSemiBold.ttf",
+            "./src/assets/fonts/SoraBold.ttf"
+          ]
+        }
+      ]
+    ]
   }
 }
