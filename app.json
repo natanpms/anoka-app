@@ -71,7 +71,8 @@
             "./src/assets/fonts/SoraBold.ttf"
           ]
         }
-      ]
+      ],
+      "expo-secure-store"
     ]
   }
 }
